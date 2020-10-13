@@ -6,7 +6,10 @@ namespace NewFeature
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Csharp8.Nullable();
+            Csharp8.RecursivePattern();
+            Console.WriteLine(Csharp8.SwitchExpression(1));
+            Csharp8.RangeAccess();
         }
     }
 }
